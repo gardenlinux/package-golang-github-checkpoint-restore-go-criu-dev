@@ -1,1 +1,5 @@
-apt_src golang-github-checkpoint-restore-go-criu-dev
+pkg=golang-github-checkpoint-restore-go-criu-dev
+version_orig=7.2.0
+version="$version_orig+ds1-2"
+git_src -b "debian/$version" "https://salsa.debian.org/go-team/packages/golang-github-checkpoint-restore-go-criu.git"
+
